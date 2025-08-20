@@ -1,0 +1,118 @@
+.contain{
+    background-color: #060615;
+}
+.footer{
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    color: white;
+    background-color: #060615;
+}
+
+.handels{
+    width:15%;
+    
+    margin: 2% 5%;
+}
+
+.handels .foot-logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.handels h1{
+    font-size: 2em;
+}
+
+.handels a .handel{
+    padding: 2%;
+    margin: 0 2%;
+    max-width: 2em;
+}
+
+.product-list {
+    width: 10%;
+    margin: 3% 10%;
+}
+
+.product-list h1{
+    font-size: 1.3em;
+}
+
+.product-list li{
+    font-size: smaller;
+    margin-top: 3%;
+}
+
+
+.features-list {
+    width: 10%;
+    margin: 3% 10% 3% 0;
+}
+
+.features-list h1{
+    font-size: 1.3em;
+}
+
+.features-list li{
+    font-size: smaller;
+    margin-top: 3%;
+}
+
+.roadmap{
+    width: 20%;
+    margin-top: 3%;
+}
+
+.roadmap h1{
+    margin-bottom: 5%;
+}
+
+.roadmap label{
+    color: white;
+}
+
+.enter-send{
+    background-color: #19192d;
+    padding: 2%;
+    margin-top: 5%;
+}
+
+.type-email{
+    padding-left: 3%;
+}
+
+
+.terms-conditions{
+    display: flex;
+    align-items: center;
+}
+
+.terms-conditions input{
+    width: 5%;
+    margin: 4%;
+    background-color: #19192d;
+}
+
+.roadmap a{
+    color: #7e44f3;
+}
+
+
+
+.terms-conditions p{
+    font-size: 0.8em;
+}
+
+.terms-conditions button{
+    text-align: center;
+    padding: 2% 5% 2% 0;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+    background-color: #060615;
+    padding-bottom: 2%;
+}

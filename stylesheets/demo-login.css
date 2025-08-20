@@ -1,0 +1,74 @@
+.free-demo{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    border-bottom: 2px solid black;
+    border-radius: 0% 0% 46% 53% / 10% 10% 10% 10%  ;
+    background-color: white;
+}
+
+.form {
+    position: relative;
+    width: 50%;
+    height: auto;
+    left: 0%;
+    top: 20%;
+}
+
+
+
+.fill-up{
+    width: 30%; 
+    height: 80%; 
+    font-size: 1.5em;
+    border: 2px solid #f3eeff;
+    border-radius: 10px;
+    padding-left: 3%;
+    margin: 0 0 0 15%;
+}
+
+.fill-up h1{
+    margin: 10% 0;
+}
+
+input{
+    width: 90%;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin: 2% 0;
+    background-color: #eeedf0;
+    color: #4b4a4e;
+}
+
+.fill-up select{
+    width: 92%;
+    height: 40px;
+    padding-left: 10px; 
+    border: 1px solid transparent;
+    background-color: #eeedf0;
+    border-radius: 5px;
+    color: #4b4a4e;
+}
+
+.create-account{
+    padding: 3% 35.5%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin: 3% 0;
+    background-color: #6a3acf;
+    color: white;
+}
+
+.phone-img{
+    max-width: 50%;
+    height: 100%;
+    right: 0;
+}
+
+.phone-img img{
+    margin-left: 15%;
+    max-width: 80%;
+}

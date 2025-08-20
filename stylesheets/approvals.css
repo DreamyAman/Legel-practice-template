@@ -1,0 +1,28 @@
+.approved{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+
+.heading{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company{
+    height: 50%;
+}
+
+.company-logo{
+    display: inline-block;
+    width: 10%;
+    height: 20%
+}
+
+.company-logo img{
+    min-width:100%;
+    height: 100%;
+}

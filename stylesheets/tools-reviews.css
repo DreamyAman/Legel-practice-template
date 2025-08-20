@@ -1,0 +1,309 @@
+.tools{
+    height: 50vh;
+    margin-top: 10%;
+}
+
+.tools-intro-heading{
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tools-intro-heading p{
+    width: 25%;
+    
+}
+.tools-intro-heading h1{
+    max-width: 20%;
+    font-size: 1.5em;
+}
+.availble-tools{
+    margin-top: 5%;
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 250px repeat(5,1fr) 250px;
+    grid-template-rows: repeat(2,110px);
+    font-size: 1em;
+}
+
+.availble-tools div{
+    height: 80%;
+    width: 90%;
+    padding: 3% 0% 0 3%;
+    border: 1px solid #dadfe3;
+    border-radius: 10px;
+
+}
+
+.availble-tools a img{
+    max-width: 2em;
+    border-radius: 10px;
+    margin-right: 2%;
+}
+
+.availble-tools a{
+    display: flex;
+    align-items: center;
+}
+
+.google{
+    grid-column: 2;
+    grid-row: 1/-1; 
+    height: 96% !important;
+}
+.google p{
+    margin-top: 5%;
+}
+.google a img{
+    max-width: 3em;
+    padding: 5%;
+    margin-bottom: 20%;
+    background-color: black;
+}
+
+.google h4{
+    margin-bottom: 5%;
+}
+
+
+.stack{
+    grid-column: 4;
+    grid-row: 1/-1; 
+    height: 96% !important;  
+}
+.stack p{
+    margin-top: 5%;
+}
+.stack a img{
+    max-width: 3em;
+    margin-bottom: 20%;
+    background-color: black;
+    padding: 5%;
+}
+
+.stack h4{
+    margin-bottom: 5%;
+}
+
+.wordpress{
+    grid-column: 6;
+    grid-row: 1/-1; 
+    height: 96% !important;
+}
+.wordpress p{
+    margin-top: 5%;
+}
+.wordpress a img{
+    max-width: 4em;
+    padding: 5;
+    margin-bottom: 20%;
+    background-color: #01749a;
+}
+
+.wordpress h4{
+    margin-bottom: 5%;
+}
+.webflow{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.webflow a{
+    margin-bottom: 3%;
+}
+
+
+.twitter{
+    grid-column: 3;
+    grid-row: 2;
+    border: 2px solid blue;
+    margin-top: 5%;
+}
+.twitter a{
+    margin-bottom: 3%;
+}
+
+
+.discord{
+    grid-column: 5;
+    grid-row: 1;
+}
+.discord a img{
+    max-width: 1.5em;
+    padding: 2%;
+    background-color: #5765f1;
+    margin-bottom: 3%;
+}
+
+
+.insta{
+    grid-column: 5;
+    grid-row: 2;
+    margin-top: 5%;
+}
+.insta a{
+    margin-bottom: 3%;
+}
+.reviews-section{
+    background-color: #f9f5ff;
+}
+.reviews{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0% 0% 48% 52% / 10% 10% 23% 24% ;
+    background: white;
+}
+
+.reviews p{
+    margin:auto;
+    width: 70%;
+}
+.reviews h2{
+    font-size: 3em;
+    margin-bottom: 1%;
+}
+
+.people-feedbacks{
+    margin: 0;
+    width: 100vw;
+    height: 60vh;
+    gap: 20px;
+    position: relative;
+}
+
+.people-reviews img{
+    max-width: 10em;
+    display: inline-block;
+}
+
+.people-reviews{
+    margin: auto;
+    margin-top: 5%;
+    height: 300px;
+    width: 50%;
+    display: flex;
+    padding-left: 3%;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+.people-reviews a h3{
+    text-align: center;
+}
+
+.people-opinion p{
+    margin:auto;
+    height: 100%;
+    width: 800px;
+    position: absolute;
+    top: 60%;
+    left: 27%;
+    text-align: center;
+    font-size: 1.5em;
+    visibility: hidden;
+    
+}
+
+.view-more{
+    font-size: 1.5em;
+    margin-left: 30px
+}
+
+
+
+.people-opinion .opinion:target{
+    visibility:visible;
+}
+.people-reviews .profile>img:hover
+{
+    transform: scale(1.2);
+}
+.people-reviews .view-more:hover{
+    transform: scale(1.2);
+    color: black;
+}
+
+.popular-questions {
+    height: 90vh;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.popular-questions-heading {
+    margin: auto;
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.popular-questions-heading h1{
+    font-size: 3em;
+    margin-bottom: 5%;
+}
+
+.faq-img {
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 35%;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.questions {
+    position: absolute;
+    right: 0;
+    top: 40%;
+    width: 30%;
+    margin: 3% 10%;
+}
+
+.faq-img img {
+    max-width: 35em;
+    margin-right: 10%;
+}
+
+.faq-container {
+      max-width: 30%;
+      margin: auto;
+      background: white;
+      position: absolute;
+      right: 0;
+      top: 40%;
+      margin: 0 15% 5% 0;
+    }
+
+    .ques-ans {
+      border: 1px solid #ebe5ff;
+      border-left: 2px solid #876efa; 
+      border-radius: 10px;
+    }
+
+    .ques-ans:hover{
+        background-color: #f9f5ff;
+    }
+
+    .faq-question {
+      display: block;
+      padding: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .faq-answer {
+      display: none;
+      padding: 20px;
+      color: #333;
+    }
+
+    .faq-answer:target {
+      display: block;
+    }
+
